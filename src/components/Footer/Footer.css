@@ -1,0 +1,314 @@
+footer{
+    width: 100%;
+    min-height: 30vh;
+    padding: 3% 5%;
+    background-color: #2A254B;
+    font-family: 'Clash Display', sans-serif;    
+}
+
+.footer , .app{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 2%;
+}
+
+.footer .submit{
+    position: relative;
+}
+
+.footer .submit h3{
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+.footer .submit form{
+    display: flex;
+}
+.footer .submit input{
+    width: 530px;
+    height: 55px;
+    padding: 0 5%;
+    font-size: 20px;
+    color: white;
+    background-color: #4e4d93a1;
+    border: none;
+    font-weight: 100;
+    outline: none;
+}
+.footer .submit button{
+    font-size: 16px;
+    width: 100px;
+    height: 55px;
+    position: absolute;
+    right: 0;
+    border: none;
+    color: #2A254B;
+    background-color: white;
+}
+
+.footer .rolling h3{
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+.footer .rolling small{
+    color: white;
+    font-size: 18px;
+    font-weight: 300; 
+    margin-bottom: 10px;
+    display: block;
+}
+
+.footer .community h3{
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+.footer .community small{
+    color: white;
+    font-size: 18px;
+    font-weight: 300; 
+    margin-bottom: 10px;
+    display: block;
+}
+
+.footermain{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+
+.footermain .text h1{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.icon i{
+    font-size: 18px;
+    color: white;
+    margin-right: 20px;    
+}
+
+@media screen and (max-width:747px){
+    footer{
+        width: 100%;
+        min-height: 30vh;
+        padding: 3% 5%;
+        background-color: #2A254B;
+        font-family: 'Clash Display', sans-serif;    
+    }
+    
+    .footer , .app{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-right: 2%;
+    }
+    
+    .footer .submit{
+        position: relative;
+        margin-top: 20px;
+    }
+    
+    .footer .submit h3{
+        color: white;
+        font-size: 24px;
+        margin-bottom: 20px;
+        font-weight: 300;
+        text-align: center;
+    }
+    
+    .footer .submit form{
+        display: flex;
+        position: relative;
+    }
+    .footer .submit form input{
+        width: 530px;
+        height: 55px;
+        padding: 0 5%;
+        font-size: 20px;
+        color: white;
+        background-color: #4e4d93a1;
+        border: none;
+        font-weight: 100;
+        outline: none;
+    }
+    .footer .submit form button{
+        font-size: 16px;
+        width: 100px;
+        height: 55px;
+        position: absolute;
+        right: 0;
+        border: none;
+        color: #2A254B;
+        background-color: white;
+    }
+    
+    .footer .rolling h3{
+        color: white;
+        font-size: 24px;
+        margin-bottom: 20px;
+        font-weight: 300;
+    }
+    .footer .rolling small{
+        color: white;
+        font-size: 18px;
+        font-weight: 300; 
+        margin-bottom: 10px;
+        display: block;
+    }
+    
+    .footer .community h3{
+        color: white;
+        font-size: 24px;
+        margin-bottom: 20px;
+        font-weight: 300;
+    }
+    .footer .community small{
+        color: white;
+        font-size: 18px;
+        font-weight: 300; 
+        margin-bottom: 10px;
+        display: block;
+    }
+    
+    .footermain{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;       
+        
+    }
+    
+    
+    .footermain .text h1{
+        color: white;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    
+    .icon i{
+        display: none;   
+    }
+}
+
+@media screen and (mix-width:747px) and (max-width:1200px){
+    footer{
+        width: 100%;
+        min-height: 30vh;
+        padding: 3% 5%;
+        background-color: #2A254B;
+        font-family: 'Clash Display', sans-serif;    
+    }
+    
+    .footer , .app{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-right: 2%;
+    }
+    
+    .footer .submit{
+        position: relative;
+        margin-top: 20px;
+    }
+    
+    .footer .submit h3{
+        color: white;
+        font-size: 24px;
+        margin-bottom: 20px;
+        font-weight: 300;
+        text-align: center;
+    }
+    
+    .footer .submit form{
+        display: flex;
+        position: relative;
+    }
+    .footer .submit form input{
+        width: 530px;
+        height: 55px;
+        padding: 0 5%;
+        font-size: 20px;
+        color: white;
+        background-color: #4e4d93a1;
+        border: none;
+        font-weight: 100;
+        outline: none;
+    }
+    .footer .submit form button{
+        font-size: 16px;
+        width: 100px;
+        height: 55px;
+        position: absolute;
+        right: 0;
+        border: none;
+        color: #2A254B;
+        background-color: white;
+    }
+    
+    .footer .rolling h3{
+        color: white;
+        font-size: 24px;
+        margin-bottom: 20px;
+        font-weight: 300;
+    }
+    .footer .rolling small{
+        color: white;
+        font-size: 18px;
+        font-weight: 300; 
+        margin-bottom: 10px;
+        display: block;
+    }
+    
+    .footer .community h3{
+        color: white;
+        font-size: 24px;
+        margin-bottom: 20px;
+        font-weight: 300;
+    }
+    .footer .community small{
+        color: white;
+        font-size: 18px;
+        font-weight: 300; 
+        margin-bottom: 10px;
+        display: block;
+    }
+    
+    .footermain{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;       
+        
+    }
+    
+    
+    .footermain .text h1{
+        color: white;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    
+    .icon i{
+        display: none;   
+    }
+}

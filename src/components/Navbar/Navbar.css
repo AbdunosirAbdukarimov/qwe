@@ -1,0 +1,142 @@
+nav{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+h1{
+    font-size: 28px;
+    color: #22202E;
+    font-family: 'Clash Display', sans-serif;
+}
+
+.icons{
+    display: flex;
+}
+
+i{
+    font-size: 18px;
+    color: #2A254B;
+}
+
+.fa-circle-user {
+    margin: 0 20px;
+}
+
+.fa-bars{
+    display: none;
+}
+
+.two{
+    display: none;
+}
+
+.bars{
+    width: 40%;
+    height: auto;
+    text-align: center;
+    background-color: #22202e79;
+    padding: 15px;
+    position: absolute;
+    right: -100%;
+    top: 10vh;
+    transition: all .3s linear;
+}
+
+.bars.show{
+    right: 0;
+}
+
+.bars span{
+    font-family: 'Clash Display', sans-serif;
+    display: block;
+    margin: 10px 0;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+.bars span:hover{
+    transform: scale(1.2);
+}
+
+
+@media screen and (max-width:747px){
+    nav{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+    }
+    
+    h1{
+        font-size: 28px;
+        color: #22202E;
+        font-family: 'Clash Display', sans-serif;
+    }
+    
+    i{
+        font-size: 18px;
+        color: #2A254B;
+    }
+    
+    .fa-circle-user {
+        display: none;
+        margin: 0 10px;
+    }
+    
+    .fa-bars{
+        display: block;
+    }
+    .two{
+        display: block;
+        margin: 0 10px;
+    }
+    .one{
+        display: none;
+    }
+}
+
+@media screen and (mix-width:747px) and (max-width:1200px){
+    nav{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 50px;
+    }
+    
+    h1{
+        font-size: 28px;
+        color: #22202E;
+        font-family: 'Clash Display', sans-serif;
+    }
+    
+    .icons{
+        display: flex;
+    }
+    
+    i{
+        font-size: 18px;
+        color: #2A254B;
+    }
+    
+    .fa-circle-user {
+        margin: 0 20px;
+    }
+    
+    .fa-bars{
+        display: none;
+    }
+    
+    .two{
+        display: none;
+    }
+}
